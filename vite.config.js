@@ -16,7 +16,7 @@ export default {
         menu: resolve(root, 'menu', 'index.html'),
         about_us: resolve(root, 'about_us', 'index.html'),
         gallery: resolve(root, 'gallery', 'index.html'),
-        contact: resolve(root, 'contact', 'index.html'),
+        contact: resolve(root, 'contact', 'index.html')
       }
     }
   }
