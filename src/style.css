@@ -24,8 +24,23 @@
     margin-right: 8px;
 }
 
-.resize_gallery {
-    width: 25%;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    align-self: center;
+}
+
+.gallery img {
+    width: 70%;
+}
+
+.gallery_2 {
+    display: flex;
+}
+
+.gallery_img {
+    width: 32.5%;
 }
 
 .about_us_main {
@@ -35,5 +50,18 @@
 @media (max-width: 767px){
     #carte_resto {
         width: 100%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 80%;
+    }
+
+    .gallery_img {
+        width: 80%;
     }
 }
