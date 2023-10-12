@@ -1,6 +1,15 @@
 # Indian restaurant using Tailwindcss
 Website for a fake franchise of restaurants.<br>
 [My Indian restaurants website](https://A3lequenne.github.io/restaurant-css-framework)
+
+## Technologies used
+- vite compiler
+- HTML5
+- CSS3 (with TailwindCSS)
+
+## Develop
+- git clone project
+- npm run dev
 ## Welcome
 Homepage of the website. Also used to show promotions and events.
 ## Menu
