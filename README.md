@@ -1,6 +1,15 @@
 # Indian restaurant using Tailwindcss
 Website for a fake franchise of restaurants.<br>
 [My Indian restaurants website](https://A3lequenne.github.io/restaurant-css-framework)
+
+## Technologies used
+- vite compiler
+- HTML5
+- CSS3 (with TailwindCSS)
+
+## Develop
+- git clone project
+- npm run dev
 ## Welcome
 Homepage of the website. Also used to show promotions and events.
 ## Menu
@@ -15,6 +24,7 @@ Contact form used to send messages to the restaurant. A few message subjects can
 I'm not satisfied by the overall style of the website. I had a few problems setting up the work environment (vite + tailwindcss) and I've had problems to deploy the website (one day to setup, more than one day to deploy). I would have liked to be able to work more on the website, but I'm happy to have used tailwindcss and vite.
 
 Some possible improvements :
+- Add privacy/EU legal cookies popup.
 - Make a better gallery page (I had something way better with JS but i couldnt manage to "npm build" the pictures that were called in the JS script)
 - More dishes options
 - I could do a better navbar
